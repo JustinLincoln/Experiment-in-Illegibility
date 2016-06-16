@@ -1,0 +1,36 @@
+Wish List for Perry text project:
+
+
+*** = priority for digital humanities conference (end of internship)
+
+Midi controller (0-128)
+Hopefully not more than 8 controls
+
+Sliders/Dials
+  Speed
+  Size
+  Alpha
+  Font (include Monaco as tribute to Heavy Industries)
+  Grayscale or text vs background
+
+Button pressed (boolean, 0 or 128)
+  Restart from beginning (one-time reset)
+  While pressed, make text red
+
+Toggle (true/false, switches from on to off with each press)
+   *** Pause
+  Reverse black and white (immediate; priority over grayscale)
+    Consider possible problems of what controls font color
+    If above/below [threshold], turn to opposite 
+  Disrupt linearity?
+    Pull random words from array
+    Later: scramble words (research how in arrays... arrays within arrays. String --> chars)
+      Dyslexia vs. "bad spelling version" of a text... Look at common dyslexia and spelling mistakes
+
+
+Additional thoughts:
+  move? (change alignement or centering? Add noise/randomness to motion?)
+  React to mouse 
+
+  *** textWidth(str) calculates and returns the width of any character or text string. Use to keep words within bounds of the frame
+  https://processing.org/reference/textWidth_.html
