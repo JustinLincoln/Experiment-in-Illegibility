@@ -22,9 +22,14 @@ Toggle (true/false, switches from on to off with each press)
   Reverse black and white (immediate; priority over grayscale)
     Consider possible problems of what controls font color
     If above/below [threshold], turn to opposite 
+    Toggle text to red or back to black(or white)
+
   Disrupt linearity?
     Pull random words from array
-    Later: scramble words (research how in arrays... arrays within arrays. String --> chars)
+    Later: scramble words (research how in arrays... arrays within arrays. String --> chars). 
+
+If we scramble words we then need to determine whether to resume at beginning of text or resume from last word.
+
       Dyslexia vs. "bad spelling version" of a text... Look at common dyslexia and spelling mistakes
 
 
@@ -34,3 +39,14 @@ Additional thoughts:
 
   *** textWidth(str) calculates and returns the width of any character or text string. Use to keep words within bounds of the frame
   https://processing.org/reference/textWidth_.html
+
+Libraries to consider
+
+Research midibus library.
+Add sound, again a nod to Heavy Industries. Use Minim or Sound Library. Each has advantages. Minim has been around longer. If we do this we can make an aspect of the text, say the font size, dependent on the sound....bigger as volume increases, etc.
+Consider libraries for GUI.if we stick with midi, or even buttons, we can avoid it, but may still be of some interest.
+
+
+Very random variations : we can easily substitute the white rect we use as background with live or pre-recorded video. However this may affect processing power/speed.
+
+
