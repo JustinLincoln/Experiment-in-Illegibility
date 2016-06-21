@@ -36,17 +36,21 @@ If we scramble words we then need to determine whether to resume at beginning of
 Additional thoughts:
   move? (change alignement or centering? Add noise/randomness to motion?)
   React to mouse 
+  letter count
+  alphabetize
 
   *** textWidth(str) calculates and returns the width of any character or text string. Use to keep words within bounds of the frame
   https://processing.org/reference/textWidth_.html
 
+
 Libraries to consider
 
 Research midibus library.
-Add sound, again a nod to Heavy Industries. Use Minim or Sound Library. Each has advantages. Minim has been around longer. If we do this we can make an aspect of the text, say the font size, dependent on the sound....bigger as volume increases, etc.
+Add sound, again a nod to Heavy Industries. Use Minim or Sound Library. Each has advantages. Minim has been around longer. 
+If we do this we can make an aspect of the text, say the font size, dependent on the sound....bigger as volume increases, etc.
 Consider libraries for GUI.if we stick with midi, or even buttons, we can avoid it, but may still be of some interest.
 
 
-Very random variations : we can easily substitute the white rect we use as background with live or pre-recorded video. However this may affect processing power/speed.
-
+Very random variations : we can easily substitute the white rect we use as background with live or pre-recorded video. 
+However this may affect processing power/speed.
 
